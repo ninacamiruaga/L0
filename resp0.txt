@@ -1,0 +1,166 @@
+
+C:\Users\Usuario>git clone https://github.com/IIC2115/Syllabus.git
+fatal: destination path 'Syllabus' already exists and is not an empty directory.
+
+
+C:\Users\Usuario>cd Desktop
+
+C:\Users\Usuario\Desktop>git clone https://github.com/IIC2115/Syllabus.git
+Cloning into 'Syllabus'...
+remote: Enumerating objects: 46, done.
+remote: Counting objects: 100% (46/46), done.
+remote: Compressing objects: 100% (35/35), done.
+remote: Total 46 (delta 6), reused 46 (delta 6), pack-reused 0
+Unpacking objects: 100% (46/46), done.
+
+C:\Users\Usuario\Desktop>cd Desktop git clone https://github.com/ninacamiruaga/L
+0.git
+El nombre de archivo, el nombre de directorio o la sintaxis de la etiqueta del v
+olumen no son correctos.
+C:\Users\Usuario\Desktop>git clone https://github.com/ninacamiruaga/L0.git
+Cloning into 'L0'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+C:\Users\Usuario\Desktop>git add L0
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\Usuario\Desktop>git add test
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\Usuario\Desktop>cd L0
+
+C:\Users\Usuario\Desktop\L0>git add test
+fatal: pathspec 'test' did not match any files
+
+C:\Users\Usuario\Desktop\L0>git add *
+
+C:\Users\Usuario\Desktop\L0>git commit -m"primera version"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Usuario@Nina.(none)')
+
+C:\Users\Usuario\Desktop\L0>git push
+Everything up-to-date
+
+C:\Users\Usuario\Desktop\L0>git add *
+
+C:\Users\Usuario\Desktop\L0>git commit -m "testing"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Usuario@Nina.(none)')
+
+C:\Users\Usuario\Desktop\L0>git push
+Everything up-to-date
+
+C:\Users\Usuario\Desktop\L0>git add *
+
+C:\Users\Usuario\Desktop\L0>git commit -m "Subiendo"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Usuario@Nina.(none)')
+
+C:\Users\Usuario\Desktop\L0>git config --global user.email "vpcamiruaga@uc.cl"
+
+C:\Users\Usuario\Desktop\L0>git config --global user.name "ninacamiruaga"
+
+C:\Users\Usuario\Desktop\L0>git push
+Everything up-to-date
+
+C:\Users\Usuario\Desktop\L0>git add*
+git: 'add*' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\Usuario\Desktop\L0>git add *
+
+C:\Users\Usuario\Desktop\L0>git commit -m "subiendo"
+[master 472e781] subiendo
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test.txt
+
+C:\Users\Usuario\Desktop\L0>git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 283 bytes | 40.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ninacamiruaga/L0.git
+   cea136c..472e781  master -> master
+
+C:\Users\Usuario\Desktop\L0> git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/ninacamiruaga/L0
+   472e781..94918a4  master     -> origin/master
+Updating 472e781..94918a4
+Fast-forward
+ test.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+C:\Users\Usuario\Desktop\L0>doskey/History
+git clone https://github.com/IIC2115/Syllabus.git
+dir Desktop
+git clone https://github.com/IIC2115/Syllabus.git
+cd Desktop
+git clone https://github.com/IIC2115/Syllabus.git
+cd Desktop git clone https://github.com/ninacamiruaga/L0.git
+git clone https://github.com/ninacamiruaga/L0.git
+git add L0
+git add test
+cd L0
+git add test
+git add *
+git commit -m"primera version"
+git push
+git add *
+git commit -m "testing"
+git push
+git add *
+git commit -m "Subiendo"
+git config --global user.email "vpcamiruaga@uc.cl"
+git config --global user.name "ninacamiruaga"
+git push
+git add*
+git add *
+git commit -m "subiendo"
+git push
+ git pull
+doskey/History
+
+C:\Users\Usuario\Desktop\L0>
+
